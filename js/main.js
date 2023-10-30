@@ -6,7 +6,7 @@ console.log(titleDOM);
 
 titleDOM.innerText = hi;
 
-console.log(titleDOM.classList);
+ console.log(titleDOM.classList);
 // titleDOM.classList.add('red');
 
 for (let i = 0; i < titleDOM.classList.length; i++) {
@@ -19,5 +19,5 @@ const sectionTitle = 'About you';
 // const sectionTitleDOM = document.querySelector('h2');
 const sectionTitleDOM = document.querySelector('h2.section-title > span');
 
-// sectionTitleDOM.innerText = sectionTitle;
+//sectionTitleDOM.innerText = sectionTitle;
 sectionTitleDOM.textContent = sectionTitle;
